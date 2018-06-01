@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+html {
+    background: rgba(241, 237, 226, 0.20);
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* App icon*/
+
+.icon img {
+    display: inline-block;
+    height: 190px;
+    width: auto; 
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 40px;
+    color: #ACA78F;
+}
+
+p {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 25px;
+    color: #ACA78F;
+}
+
+/* screenshots from app */
+
+.scrshwrapper {
+    display: block;
+    align-content: space-between;
+}
+
+/* choose image */
+
+.choose {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+}
+
+.choose img {
+    height: auto;
+    width: 300px;
+}
+
+.choose img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* timer image */
+
+.timer {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+}
+
+.timer img {
+    height: auto;
+    width: 300px;
+}
+
+.timer img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* alarm image */
+
+.alarm {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+}
+
+.alarm img {
+    height: auto;
+    width: 300px;
+}
+
+.alarm img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* Download button */
+
+.dlbtn {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ACA78F;
+    border-radius: 45px;
+    width: 210px;
+    height: 60px;
+    /* text inside btn */
+    padding-top: 15px;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 25px;
+    color: #ACA78F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dlbtn a:link {
+    text-decoration: none;
+    color: #ACA78F;
+    }
+
+.dlbtn a:visited {
+    text-decoration: none;
+    color: #ACA78F;
+}
+
+.dlbtn:hover {
+    cursor: pointer;
+    background-color: #F9D056;
+    border: 2px solid #F9D056;
+    color: #ffffff;
+}
